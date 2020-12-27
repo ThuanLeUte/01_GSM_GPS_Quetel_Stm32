@@ -20,6 +20,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "can.h"
 #include "dma.h"
 #include "spi.h"
 #include "usart.h"
@@ -71,7 +72,6 @@ int main(void)
   /* USER CODE BEGIN 1 */
 //uwTickPrio = TICK_INT_PRIORITY;
   /* USER CODE END 1 */
-  
 
   /* MCU Configuration--------------------------------------------------------*/
 
@@ -97,11 +97,10 @@ int main(void)
   MX_UART5_Init();
   MX_USART1_UART_Init();
   MX_USART3_UART_Init();
+  MX_CAN_Init();
   /* USER CODE BEGIN 2 */
 	SerialBegin();
   /* USER CODE END 2 */
- 
- 
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */

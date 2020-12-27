@@ -6,6 +6,7 @@
 *.ko
 *.obj
 *.elf
+*.crf
 
 # Linker output
 *.ilk
@@ -50,3 +51,32 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_dma.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/dma.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/gpio.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/main.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/quectel_gsm_cc.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/serialcontrol_cc.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/spi.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/statemachine_cc.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_can.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_cortex.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_dma.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_exti.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_flash_ex.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_flash.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_gpio_ex.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_gpio.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_msp.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_pwr.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_rcc_ex.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_rcc.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_spi.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_tim_ex.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_tim.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal_uart.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_hal.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/stm32f1xx_it.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/system_stm32f1xx.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/usart.crf
+MDK-ARM/01_GSM_GPS_Quetel_Cplus_StmF1/zigbeewebee_cc.crf
